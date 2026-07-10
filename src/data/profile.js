@@ -37,7 +37,7 @@ export const projects = [
     description: "Juego de laberinto desarrollado en Pygame como proyecto de laboratorio. Explora, esquiva obstáculos y encuentra la salida.",
     tech: ["Python", "Pygame"],
     github: "https://github.com/edijr25/Lopez.Edicilio.P2.Lab1.1A",
-    demo: null,
+    demo: "/game/",
     gradient: "from-green-500 to-emerald-600",
   },
   {
