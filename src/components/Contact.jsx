@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Mail } from "lucide-react";
-import { GithubIcon, LinkedinIcon, TwitterIcon } from "@/components/icons";
+import { GithubIcon, LinkedinIcon } from "@/components/icons";
 import { personalInfo } from "@/data/profile";
 
 export default function Contact() {
@@ -51,15 +51,7 @@ export default function Contact() {
               <LinkedinIcon size={18} />
               LinkedIn
             </a>
-            <a
-              href={personalInfo.social.twitter}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-2 px-4 py-2 rounded-lg bg-zinc-100 dark:bg-zinc-800 hover:bg-zinc-200 dark:hover:bg-zinc-700 transition-colors text-sm"
-            >
-              <TwitterIcon size={18} />
-              Twitter
-            </a>
+
           </div>
         </motion.div>
       </div>

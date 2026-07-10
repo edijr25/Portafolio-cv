@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { ArrowDown } from "lucide-react";
-import { GithubIcon, LinkedinIcon, TwitterIcon } from "@/components/icons";
+import { GithubIcon, LinkedinIcon } from "@/components/icons";
 import { personalInfo } from "@/data/profile";
 
 export default function Hero() {
@@ -74,14 +74,7 @@ export default function Hero() {
           >
             <LinkedinIcon />
           </a>
-          <a
-            href={personalInfo.social.twitter}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="p-3 rounded-full bg-zinc-100 dark:bg-zinc-800 hover:bg-zinc-200 dark:hover:bg-zinc-700 transition-colors"
-          >
-            <TwitterIcon />
-          </a>
+
         </motion.div>
 
         <motion.div

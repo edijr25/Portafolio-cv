@@ -8,8 +8,7 @@ export const personalInfo = {
   bio: "Técnico en Soporte Senior con experiencia en administración de sistemas, redes y automatización. Desarrollador backend en formación con conocimientos en Python, Node.js y FastAPI. Apasionado por la tecnología, la resolución de problemas y el aprendizaje continuo.",
   social: {
     github: "https://github.com/edijr25",
-    linkedin: "https://www.linkedin.com/in/edicilio-lopez",
-    twitter: "https://twitter.com/edijr25",
+    linkedin: "https://www.linkedin.com/in/edicilio-lopezs",
   },
   cvUrl: "/cv.pdf",
 };
@@ -33,6 +32,14 @@ export const skills = [
 ];
 
 export const projects = [
+  {
+    title: "Lopez.Edi P2 Lab1.1A",
+    description: "Juego de laberinto desarrollado en Pygame como proyecto de laboratorio. Explora, esquiva obstáculos y encuentra la salida.",
+    tech: ["Python", "Pygame"],
+    github: "https://github.com/edijr25/Lopez.Edicilio.P2.Lab1.1A",
+    demo: null,
+    gradient: "from-green-500 to-emerald-600",
+  },
   {
     title: "TelegramGastos",
     description: "Bot de Telegram para control de gastos personales. Permite registrar, categorizar y consultar gastos desde la aplicación de mensajería.",
