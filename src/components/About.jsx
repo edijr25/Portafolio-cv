@@ -24,7 +24,7 @@ export default function About() {
               </p>
               <a
                 href={personalInfo.cvUrl}
-                download
+                download="cv 2026 edi.pdf"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-emerald-500 hover:bg-emerald-600 text-white rounded-lg font-medium transition-colors"
               >
                 <Download size={18} />

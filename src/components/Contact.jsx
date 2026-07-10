@@ -24,7 +24,7 @@ export default function Contact() {
 
           <div className="flex justify-center gap-4 mb-12">
             <a
-              href={`mailto:${personalInfo.social.github ? "ediciliolopez@gmail.com" : ""}`}
+              href={"mailto:lopez.edicilio@gmail.com"}
               className="flex items-center gap-2 px-6 py-3 bg-emerald-500 hover:bg-emerald-600 text-white rounded-lg font-medium transition-colors"
             >
               <Mail size={18} />

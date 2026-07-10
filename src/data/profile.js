@@ -2,7 +2,7 @@ export const personalInfo = {
   name: "Edicilio R. López S.",
   title: "Soporte Técnico SR / Desarrollador JR",
   location: "CABA, Argentina",
-  email: "Lopez.edicilio@gmail.com",
+  email: "lopez.edicilio@gmail.com",
   phone: "+5491157812249",
   avatar: "https://avatars.githubusercontent.com/u/102106369?v=4",
   bio: "Técnico en Soporte Senior con experiencia en administración de sistemas, redes y automatización. Desarrollador backend en formación con conocimientos en Python, Node.js y FastAPI. Apasionado por la tecnología, la resolución de problemas y el aprendizaje continuo.",
