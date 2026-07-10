@@ -16,7 +16,7 @@ export const personalInfo = {
 export const skills = [
   { name: "Python", icon: "🐍", category: "backend" },
   { name: "JavaScript", icon: "🟨", category: "frontend" },
-  { name: "Node.js", icon: "📦", category: "backend" },
+  { name: "Node.js", icon: "nodejs", category: "backend" },
   { name: "FastAPI", icon: "⚡", category: "backend" },
   { name: "SQL", icon: "🗄️", category: "backend" },
   { name: "C", icon: "⚙️", category: "backend" },
@@ -32,14 +32,7 @@ export const skills = [
 ];
 
 export const projects = [
-  {
-    title: "Lopez.Edi P2 Lab1.1A",
-    description: "Juego de laberinto desarrollado en Pygame como proyecto de laboratorio. Explora, esquiva obstáculos y encuentra la salida.",
-    tech: ["Python", "Pygame"],
-    github: "https://github.com/edijr25/Lopez.Edicilio.P2.Lab1.1A",
-    demo: "/game/",
-    gradient: "from-green-500 to-emerald-600",
-  },
+
   {
     title: "TelegramGastos",
     description: "Bot de Telegram para control de gastos personales. Permite registrar, categorizar y consultar gastos desde la aplicación de mensajería.",

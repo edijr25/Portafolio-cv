@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { NodejsIcon } from "@/components/icons";
 import { skills } from "@/data/profile";
 
 export default function Skills() {
@@ -26,7 +27,7 @@ export default function Skills() {
                 transition={{ duration: 0.3, delay: index * 0.05 }}
                 className="flex items-center gap-3 p-4 rounded-xl bg-white dark:bg-zinc-800 border border-zinc-200 dark:border-zinc-700 hover:border-emerald-400 dark:hover:border-emerald-500 transition-colors"
               >
-                <span className="text-2xl">{skill.icon}</span>
+                <span className="text-2xl">{skill.icon === "nodejs" ? <NodejsIcon size={24} /> : skill.icon}</span>
                 <span className="font-medium text-sm">{skill.name}</span>
               </motion.div>
             ))}
